@@ -1,5 +1,5 @@
 <?php
-    header('content-type:application:json;charset=utf8');
+    header('Content-Type: text/html; charset=UTF-8');
     header('Access-Control-Allow-Origin:*');
     header('Access-Control-Allow-Methods:POST');
     header('Access-Control-Allow-Headers:x-requested-with,content-type');
@@ -11,6 +11,7 @@
  
 //调用conn.php文件进行数据库操作 
 require('mysqlconnect.php'); 
+mysqli_query($db,"set names 'utf8'");
 $sql="select * from products";
 $result=mysqli_query($db,$sql);
 //提示操作成功信息，注意：$result存在于conn.php文件中，被调用出来 
