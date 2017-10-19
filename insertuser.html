@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>insert user information</title>
+    </head>
+    <body>
+        <div>
+            <h1>insert user information to database</h1>
+        </div>
+        <div>
+            <form action="insertuser.php" method="POST">
+                user name:<br>
+                <input type="text" name="userId"/><br>
+                user password:<br>
+                <input type="password" name="Password"/><br>
+                user email:<br>
+                <input type="text" name="email"/><br>
+                user sex:<br>
+                <input class="radio" type="radio" name="sex" value="male" checked="checked">Male</input>
+			    <input class="radio" type="radio" name="sex" value="female">Female</input><br>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+[06-Oct-2017 06:41:01 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:01 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:41:01 UTC] PHP Warning:  require(php): failed to open stream: No such file or directory in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:01 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:41:01 UTC] PHP Fatal error:  require(): Failed opening required 'php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:01 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:41:47 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:47 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:41:47 UTC] PHP Warning:  require(php): failed to open stream: No such file or directory in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:47 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:41:47 UTC] PHP Fatal error:  require(): Failed opening required 'php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/iroza1/shopping-result.php on line 59
+[06-Oct-2017 06:41:47 UTC] PHP Stack trace:
+[06-Oct-2017 06:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:57:33 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/iroza1/shopping-result.php on line 83
+[06-Oct-2017 06:57:33 UTC] PHP Stack trace:
+[06-Oct-2017 06:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:58:46 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/iroza1/shopping-result.php on line 83
+[06-Oct-2017 06:58:46 UTC] PHP Stack trace:
+[06-Oct-2017 06:58:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 06:59:09 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/iroza1/shopping-result.php on line 83
+[06-Oct-2017 06:59:09 UTC] PHP Stack trace:
+[06-Oct-2017 06:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 07:02:47 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/iroza1/shopping-result.php on line 86
+[06-Oct-2017 07:02:47 UTC] PHP Stack trace:
+[06-Oct-2017 07:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
+[06-Oct-2017 07:03:21 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/iroza1/shopping-result.php on line 89
+[06-Oct-2017 07:03:21 UTC] PHP Stack trace:
+[06-Oct-2017 07:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/iroza1/shopping-result.php:0
