@@ -10,19 +10,7 @@
     $userna=$_REQUEST["userId"];
     $pass=$_REQUEST["Password"]; 
   
-    $servername = getenv('IP');
-    $username = getenv('C9_USER');
-    $password = "";
-    $database = "c9";
-    $dbport = 3306;
-
-    // Create connection
-    $db = new mysqli($servername, $username, $password, $database, $dbport);
-
-    // Check connection
-    if ($db->connect_error) {
-        die("Connection failed: " . $db->connect_error);
-    } 
+    require 'mysqlconnect.php'; 
     
     $sql="select * from user_register where user_name ='$userna'";
     $result=mysqli_query($db,$sql);
