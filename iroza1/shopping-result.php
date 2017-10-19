@@ -76,7 +76,7 @@
     $price = $_POST['price'];
     $count = $_POST['num'];
     
-    $sql="insert into order_item values(sysdate(),(select user_id from user_register where user_name='$userna'),(select p_id from products where p_name = '$pname'),'$price',$count)";
+    $sql="insert into order_item values(sysdate(),(select user_id from user_register where user_name='$userna'),(select product_id from products where p_name = '$pname'),'$price',$count)";
     $pid=$db->query($sql);
     if ($pid) {
     	echo "<<script type='text/javascript'>alert('success');</script>>";
